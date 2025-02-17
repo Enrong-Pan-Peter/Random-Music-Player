@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"a2","l":"HawaiianWords"},{"p":"a2","l":"MappingResult"},{"p":"a2","l":"Waltz"}];updateSearchResults();

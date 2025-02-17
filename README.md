@@ -5,19 +5,24 @@ This project is a Java-based implementation of a musical dice game that generate
 
 ## Files
 
-### `StdAudio.java`
+### `StdAudio.java` in `src`
 This class provides audio playback functionality. It allows the program to:
 - Play individual audio samples.
 - Play entire audio files (WAV, AU, AIFF, MIDI).
 - Read and write audio files.
 - Play audio files in the background.
 
-### `Waltz.java`
+### `Waltz.java` in `src`
 This class manages the composition and playback of randomly generated waltzes. Key features include:
 - Defines constants for minuet and trio sequence lengths.
 - Uses dice rolls to select musical fragments.
 - Supports multiple instruments (`piano`, `clarinet`, `flute-harp`, `mbira`).
 - Generates and plays waltzes using `StdAudio.play()`.
+
+### `mozart`
+This directory contains the music source files to be selected to play.
+- Sorted by instruments
+- Include minuets and trios
 
 ## How It Works
 
